@@ -85,3 +85,8 @@ after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
   sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
+
+# For middleman-gh-pages Project Page Path Issues
+# **NOTE This only affects sites being accessed at the username.github.io/projectname URL, not when accessed at a custom CNAME.**
+activate :relative_assets
+set :relative_links, true
