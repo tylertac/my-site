@@ -283,3 +283,42 @@
     height: 89px;
     width: 88px;
   }
+
+
+  @media (max-width: 468px) {
+
+    .contact h1 {
+      margin-top: 52px;
+    }
+
+    .contact li {
+      padding-right: 48px;
+    }
+
+    .contact li {
+      margin-left: 52px;
+    }
+
+    .contact .pattern {
+      display: none;
+    }
+
+    .about-me h1 {
+      margin-top: 106px;
+    }
+
+    figcaption h2 {
+      margin: 0px;
+    }
+
+    .top-hero {
+      height: 200px;
+    }
+
+    .hero-img {
+      margin: 30px;
+      padding-left: 22px;
+    }
+
+
+  }
