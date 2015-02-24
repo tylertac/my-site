@@ -78,7 +78,7 @@
 
       el.style.cssText =  'position:fixed; left:10px; top:10px; width:300px; background:rgba(50,50,50,0.9);' +
                           '-moz-border-radius:10px; padding:1em; color: #eee; text-align: left;' +
-                          'font-family: "clear_sans_mediumregular", Verdana, Arial, sans serif; z-index: 99999;';
+                          'font-family: "Open Sans Condensed", sans-serif; z-index: 99999;';
 
       for (var prop in propSets) {
         appendControl(el, prop);
